@@ -20,7 +20,7 @@ public class test1 {
 			Thread.sleep(2000);
 			WebElement wb=driver.findElement(By.xpath("//*[@id='horus-querytext']"));
 			wb.sendKeys("dehradun");
-			Thread.sleep(2000);
+			Thread.sleep(4000);
 
 			driver.findElement(By.xpath("//*[@id='suggestion-515677002']/div/span[1]")).click();
 			driver.findElement(By.xpath("//*[@datetime='2018-06-01']")).click();
